@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA49DDA02195D84100338486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA49DD9F2195D84100338486 /* AppDelegate.swift */; };
+		BA49DDA22195D84100338486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA49DDA12195D84100338486 /* ViewController.swift */; };
+		BA49DDA52195D84100338486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA49DDA32195D84100338486 /* Main.storyboard */; };
+		BA49DDA82195D84100338486 /* AlFuttaim_News.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA49DDA62195D84100338486 /* AlFuttaim_News.xcdatamodeld */; };
+		BA49DDAA2195D84300338486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA49DDA92195D84300338486 /* Assets.xcassets */; };
+		BA49DDAD2195D84300338486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA49DDAB2195D84300338486 /* LaunchScreen.storyboard */; };
+		BA49DDB82195D84300338486 /* AlFuttaim_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA49DDB72195D84300338486 /* AlFuttaim_NewsTests.swift */; };
+		BA49DDC32195D84300338486 /* AlFuttaim_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA49DDC22195D84300338486 /* AlFuttaim_NewsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA49DDB42195D84300338486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA49DD942195D84100338486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA49DD9B2195D84100338486;
+			remoteInfo = AlFuttaim_News;
+		};
+		BA49DDBF2195D84300338486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA49DD942195D84100338486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA49DD9B2195D84100338486;
+			remoteInfo = AlFuttaim_News;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA49DD9C2195D84100338486 /* AlFuttaim_News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlFuttaim_News.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA49DD9F2195D84100338486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA49DDA12195D84100338486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA49DDA42195D84100338486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA49DDA72195D84100338486 /* AlFuttaim_News.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlFuttaim_News.xcdatamodel; sourceTree = "<group>"; };
+		BA49DDA92195D84300338486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA49DDAC2195D84300338486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA49DDAE2195D84300338486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA49DDB32195D84300338486 /* AlFuttaim_NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlFuttaim_NewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA49DDB72195D84300338486 /* AlFuttaim_NewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlFuttaim_NewsTests.swift; sourceTree = "<group>"; };
+		BA49DDB92195D84300338486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA49DDBE2195D84300338486 /* AlFuttaim_NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlFuttaim_NewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA49DDC22195D84300338486 /* AlFuttaim_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlFuttaim_NewsUITests.swift; sourceTree = "<group>"; };
+		BA49DDC42195D84300338486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA49DD992195D84100338486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA49DDB02195D84300338486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA49DDBB2195D84300338486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA49DD932195D84100338486 = {
+			isa = PBXGroup;
+			children = (
+				BA49DD9E2195D84100338486 /* AlFuttaim_News */,
+				BA49DDB62195D84300338486 /* AlFuttaim_NewsTests */,
+				BA49DDC12195D84300338486 /* AlFuttaim_NewsUITests */,
+				BA49DD9D2195D84100338486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA49DD9D2195D84100338486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA49DD9C2195D84100338486 /* AlFuttaim_News.app */,
+				BA49DDB32195D84300338486 /* AlFuttaim_NewsTests.xctest */,
+				BA49DDBE2195D84300338486 /* AlFuttaim_NewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA49DD9E2195D84100338486 /* AlFuttaim_News */ = {
+			isa = PBXGroup;
+			children = (
+				BA49DD9F2195D84100338486 /* AppDelegate.swift */,
+				BA49DDA12195D84100338486 /* ViewController.swift */,
+				BA49DDA32195D84100338486 /* Main.storyboard */,
+				BA49DDA92195D84300338486 /* Assets.xcassets */,
+				BA49DDAB2195D84300338486 /* LaunchScreen.storyboard */,
+				BA49DDAE2195D84300338486 /* Info.plist */,
+				BA49DDA62195D84100338486 /* AlFuttaim_News.xcdatamodeld */,
+			);
+			path = AlFuttaim_News;
+			sourceTree = "<group>";
+		};
+		BA49DDB62195D84300338486 /* AlFuttaim_NewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA49DDB72195D84300338486 /* AlFuttaim_NewsTests.swift */,
+				BA49DDB92195D84300338486 /* Info.plist */,
+			);
+			path = AlFuttaim_NewsTests;
+			sourceTree = "<group>";
+		};
+		BA49DDC12195D84300338486 /* AlFuttaim_NewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA49DDC22195D84300338486 /* AlFuttaim_NewsUITests.swift */,
+				BA49DDC42195D84300338486 /* Info.plist */,
+			);
+			path = AlFuttaim_NewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA49DD9B2195D84100338486 /* AlFuttaim_News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA49DDC72195D84300338486 /* Build configuration list for PBXNativeTarget "AlFuttaim_News" */;
+			buildPhases = (
+				BA49DD982195D84100338486 /* Sources */,
+				BA49DD992195D84100338486 /* Frameworks */,
+				BA49DD9A2195D84100338486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlFuttaim_News;
+			productName = AlFuttaim_News;
+			productReference = BA49DD9C2195D84100338486 /* AlFuttaim_News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA49DDB22195D84300338486 /* AlFuttaim_NewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA49DDCA2195D84300338486 /* Build configuration list for PBXNativeTarget "AlFuttaim_NewsTests" */;
+			buildPhases = (
+				BA49DDAF2195D84300338486 /* Sources */,
+				BA49DDB02195D84300338486 /* Frameworks */,
+				BA49DDB12195D84300338486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA49DDB52195D84300338486 /* PBXTargetDependency */,
+			);
+			name = AlFuttaim_NewsTests;
+			productName = AlFuttaim_NewsTests;
+			productReference = BA49DDB32195D84300338486 /* AlFuttaim_NewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA49DDBD2195D84300338486 /* AlFuttaim_NewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA49DDCD2195D84300338486 /* Build configuration list for PBXNativeTarget "AlFuttaim_NewsUITests" */;
+			buildPhases = (
+				BA49DDBA2195D84300338486 /* Sources */,
+				BA49DDBB2195D84300338486 /* Frameworks */,
+				BA49DDBC2195D84300338486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA49DDC02195D84300338486 /* PBXTargetDependency */,
+			);
+			name = AlFuttaim_NewsUITests;
+			productName = AlFuttaim_NewsUITests;
+			productReference = BA49DDBE2195D84300338486 /* AlFuttaim_NewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA49DD942195D84100338486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Alaa.Hamed;
+				TargetAttributes = {
+					BA49DD9B2195D84100338486 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BA49DDB22195D84300338486 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BA49DD9B2195D84100338486;
+					};
+					BA49DDBD2195D84300338486 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BA49DD9B2195D84100338486;
+					};
+				};
+			};
+			buildConfigurationList = BA49DD972195D84100338486 /* Build configuration list for PBXProject "AlFuttaim_News" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA49DD932195D84100338486;
+			productRefGroup = BA49DD9D2195D84100338486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA49DD9B2195D84100338486 /* AlFuttaim_News */,
+				BA49DDB22195D84300338486 /* AlFuttaim_NewsTests */,
+				BA49DDBD2195D84300338486 /* AlFuttaim_NewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA49DD9A2195D84100338486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA49DDAD2195D84300338486 /* LaunchScreen.storyboard in Resources */,
+				BA49DDAA2195D84300338486 /* Assets.xcassets in Resources */,
+				BA49DDA52195D84100338486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA49DDB12195D84300338486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA49DDBC2195D84300338486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA49DD982195D84100338486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA49DDA82195D84100338486 /* AlFuttaim_News.xcdatamodeld in Sources */,
+				BA49DDA22195D84100338486 /* ViewController.swift in Sources */,
+				BA49DDA02195D84100338486 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA49DDAF2195D84300338486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA49DDB82195D84300338486 /* AlFuttaim_NewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA49DDBA2195D84300338486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA49DDC32195D84300338486 /* AlFuttaim_NewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA49DDB52195D84300338486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA49DD9B2195D84100338486 /* AlFuttaim_News */;
+			targetProxy = BA49DDB42195D84300338486 /* PBXContainerItemProxy */;
+		};
+		BA49DDC02195D84300338486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA49DD9B2195D84100338486 /* AlFuttaim_News */;
+			targetProxy = BA49DDBF2195D84300338486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA49DDA32195D84100338486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA49DDA42195D84100338486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA49DDAB2195D84300338486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA49DDAC2195D84300338486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA49DDC52195D84300338486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA49DDC62195D84300338486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA49DDC82195D84300338486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYGP8QN4Y2;
+				INFOPLIST_FILE = AlFuttaim_News/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alaa.Hamed.AlFuttaim-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA49DDC92195D84300338486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYGP8QN4Y2;
+				INFOPLIST_FILE = AlFuttaim_News/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alaa.Hamed.AlFuttaim-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA49DDCB2195D84300338486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYGP8QN4Y2;
+				INFOPLIST_FILE = AlFuttaim_NewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alaa.Hamed.AlFuttaim-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlFuttaim_News.app/AlFuttaim_News";
+			};
+			name = Debug;
+		};
+		BA49DDCC2195D84300338486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYGP8QN4Y2;
+				INFOPLIST_FILE = AlFuttaim_NewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alaa.Hamed.AlFuttaim-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlFuttaim_News.app/AlFuttaim_News";
+			};
+			name = Release;
+		};
+		BA49DDCE2195D84300338486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYGP8QN4Y2;
+				INFOPLIST_FILE = AlFuttaim_NewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alaa.Hamed.AlFuttaim-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlFuttaim_News;
+			};
+			name = Debug;
+		};
+		BA49DDCF2195D84300338486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYGP8QN4Y2;
+				INFOPLIST_FILE = AlFuttaim_NewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alaa.Hamed.AlFuttaim-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlFuttaim_News;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA49DD972195D84100338486 /* Build configuration list for PBXProject "AlFuttaim_News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA49DDC52195D84300338486 /* Debug */,
+				BA49DDC62195D84300338486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA49DDC72195D84300338486 /* Build configuration list for PBXNativeTarget "AlFuttaim_News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA49DDC82195D84300338486 /* Debug */,
+				BA49DDC92195D84300338486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA49DDCA2195D84300338486 /* Build configuration list for PBXNativeTarget "AlFuttaim_NewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA49DDCB2195D84300338486 /* Debug */,
+				BA49DDCC2195D84300338486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA49DDCD2195D84300338486 /* Build configuration list for PBXNativeTarget "AlFuttaim_NewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA49DDCE2195D84300338486 /* Debug */,
+				BA49DDCF2195D84300338486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA49DDA62195D84100338486 /* AlFuttaim_News.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA49DDA72195D84100338486 /* AlFuttaim_News.xcdatamodel */,
+			);
+			currentVersion = BA49DDA72195D84100338486 /* AlFuttaim_News.xcdatamodel */;
+			path = AlFuttaim_News.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA49DD942195D84100338486 /* Project object */;
+}
